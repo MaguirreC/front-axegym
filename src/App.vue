@@ -1,13 +1,9 @@
 <script setup>
-import { watch,onMounted,ref,watchEffect } from 'vue';
-import HelloWorld from './components/HelloWorld.vue'
-import { useRoute } from "vue-router";
+
 import Navbar from './components/Navbar.vue';
 import Sidebar from './components/Sidebar.vue';
 import LayoutMain from './components/LayoutMain.vue';
 
-const showAlert = ref(false);
-const route = useRoute();
 
 
 </script>
